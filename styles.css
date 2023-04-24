@@ -1,1 +1,67 @@
-/*  your css code here. If applicable */
+*{
+    margin: 0px;
+}
+body{
+    background-color: #f5f5f5;
+    
+}
+/* Your CSS Code here. */
+.navbar nav{
+    position: sticky;
+    height: 80px;
+    width: 100vw;
+    background-color: #011e29;   
+}
+.navbar h1{
+    position: relatve;
+    text-align: center;
+    color: rgb(255,255,255);
+    height: 80px;
+} 
+.container{
+    display: flex;
+    background-color: rgb(255,255,255);
+    padding: 5px;
+    margin: 5px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.left{
+    width: 25%;
+    height: 100px;
+    padding: 30px;
+    margin: 5px;
+
+    border-radius: 8px;
+    text-align: center;
+}
+.left h1{
+    text-align: center;
+    display: inline;
+   
+}
+.main{
+    width: 50% ;
+    height: 200px ;
+    padding: 30px;
+    margin: 5px;
+    
+    border-radius: 8px;
+    text-align: center;
+}
+.right{
+    width: 25%;
+    height: 1000px;
+    padding: 30px;
+    margin: 5px;
+    
+    border-radius: 8px;
+    text-align: center;
+    display: inline;
+}
+.right img{
+    height: 250px;
+    padding: 10px;
+}
